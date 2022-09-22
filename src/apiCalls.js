@@ -1,5 +1,5 @@
 import axios from "axios"
-import {axiosInstance,serverURL} from "./config"
+// import {axiosInstance,serverURL} from "./config"
 export const loginCall = async (userCredential, dispatch) => {
   dispatch({ type: "LOGIN_START" });
   try {
